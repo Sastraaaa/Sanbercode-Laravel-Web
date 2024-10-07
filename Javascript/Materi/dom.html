@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="judul">Ini adalah judul</h1>
+    <ul>
+        <li class="list-menu">Tempe goreng</li>
+        <li class="list-menu">ayam goreng</li>
+        <li class="list-menu">Mie goreng</li>
+    </ul>
+    <div id="menu-minuman">
+
+    </div>
+</body>
+<script>
+    let judul = document.getElementById('judul')
+    let listMenu = document.getElementsByClassName('list-menu')
+    console.log(listMenu.length)
+
+    // mengganti/menambah element HTML
+    let menuMinuman = document.getElementById('menu-minuman')
+    menuMinuman.innerHTML = `<h2>Menu minuman</h2>
+                            <ul>
+                                <li>Cola-cola</li>
+                                <li>Kopikap</li>
+                                <li>Spirte</li>
+                            </ul>`
+</script>
+</html>

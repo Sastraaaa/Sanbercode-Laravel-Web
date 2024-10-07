@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Form Sign Up</title>
+</head>
+
+<body>
+    <h1>Buat Account Baru!</h1>
+    <h3>Sign Up Form</h3><br>
+
+    <form action="">
+
+        <!-- Input nama -->
+        <div>
+            <label for="">First name:</label><br> <br>
+            <input type="text" name="firstname" id="" required> <br> <br>
+            <label for="">Last name:</label> <br><br>
+            <input type="text" name="lastname" id="" required>
+        </div> <br>
+
+        <!-- Pilih Jenis Kelamin -->
+        <div>
+            <label for="">Gender: </label> <br> <br>
+            <input type="radio" name="gender" id="1" required>Male <br>
+            <input type="radio" name="gender" id="2">Female <br>
+            <input type="radio" name="gender" id="3">Other
+        </div> <br>
+
+        <!-- Pilih Kewarganegaraan -->
+        <div>
+            <label for="">Nationality:</label> <br> <br>
+            <select name="nationality" id="" required>
+                <option value="Indonesian">Indonesian</option>
+                <option value="United States">United States</option>
+                <option value="India">India</option>
+            </select>
+        </div> <br>
+
+        <!-- Pilih Bahasa yang dikuasai -->
+        <div>
+            <label for="">Language Spoken:</label> <br> <br>
+            <input type="checkbox" name="language" id=""> Bahasa Indonesia <br>
+            <input type="checkbox" name="language" id=""> English <br>
+            <input type="checkbox" name="language" id=""> Other
+        </div> <br>
+
+        <!-- Isi Biografi-->
+        <div>
+            <label for="">Bio:</label> <br> <br>
+            <textarea name="bio" id="" cols="30" rows="10" required></textarea>
+        </div> <br>
+
+        <!-- Button Sign Up -->
+        <div>
+            <a href="welcome.html"> <button type="button">Sign Up</button> </a>
+        </div>
+    </form>
+</body>
+
+</html>
